@@ -6,6 +6,12 @@ body {
   background-color: lemonchiffon;
 }
 
+.page-container {
+  max-width: 800px;
+  min-width: 700px;
+  margin: auto;
+}
+
 h1 {
   text-align: center;
   font-size: 60px;
@@ -23,14 +29,14 @@ p {
   border-style: solid;
   border-color: antiquewhite;
 }
- img {
-    width: 250px;
-    height: 180px;
-    padding: 10px;
-    border-radius: 20px;
- }
+img {
+  width: 250px;
+  height: 180px;
+  padding: 10px;
+  border-radius: 20px;
+}
 
- img:hover {
-    transform:scale(1.5);
-    transition-timing-function: ease-in-out;
- }
+img:hover {
+  transform: scale(1.5);
+  transition-timing-function: ease-in-out;
+}
